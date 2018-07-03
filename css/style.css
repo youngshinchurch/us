@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+
+
+#church{
+    position: relative;
+    width:100%;
+    height:600px;
+
+}
+
+#church>ul{
+    position:relative;
+    top:35%;
+    width:80%;
+    margin:0 auto;
+
+ }
+ #church>ul>li>a{
+     display: block;
+     width:100%;
+     background:none;
+     border:1px solid rgb(206, 206, 206);
+ }
+ #church>ul>li>a>img{
+     
+    width:100%;
+    height:auto;
+ }
+ 
+
+
+
+
+
+
+
+/* All Mobile Code */
+
+@media all and (min-width:768px){
+
+    #church>ul{
+        top:16%;
+    }
+    
+
+
+
+
+
+
+}
+@media all and (min-width:1200px){
+
+
+
+
+
+
+
+#church{
+    position: relative;
+    width:100%;
+    height:840px;
+  
+
+}
+
+#church>ul{
+    position:relative;
+    width:50%;
+    height:auto;
+    top:20%;
+ }
+
+ #church>ul>li>a>img{
+     
+    width:80%;
+    height:auto;
+ }
+
+
+
+
+}
+
